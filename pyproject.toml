@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "feedz"
+version = "0.1.0"
+description = ""
+authors = ["FabricioPatrocinio <fabricioschiffer@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+playwright = "^1.17.2"
+python-dotenv = "^0.19.2"
+alive-progress = "^2.1.0"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
