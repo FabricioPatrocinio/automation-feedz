@@ -26,6 +26,14 @@ now install playwright:
 playwright install
 ```
 
+## Change the .env
+Don't forget to change:
+```
+SITE=https://app.feedz.com.br/
+EMAIL=your_email@g.com
+PASSWORD=your_password
+```
+
 ## Your only routine hahaha
 Now with the dependencies installed
 Inside the **/robot** run:
@@ -33,4 +41,4 @@ Inside the **/robot** run:
 python robot.py
 ```
 
-# Now just hope he will do everything for you :)# automation-feedz
+# Now just hope he will do everything for you :)
